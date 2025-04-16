@@ -19,6 +19,7 @@
 		9AD5A0B62DAF399A0088E21C /* testgithubactionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5A0B52DAF399A0088E21C /* testgithubactionTests.m */; };
 		9AD5A0C02DAF399A0088E21C /* testgithubactionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5A0BF2DAF399A0088E21C /* testgithubactionUITests.m */; };
 		9AD5A0C22DAF399A0088E21C /* testgithubactionUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5A0C12DAF399A0088E21C /* testgithubactionUITestsLaunchTests.m */; };
+		9AD5A0CF2DAF3C810088E21C /* exportOptionsAdHoc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AD5A0CE2DAF3C810088E21C /* exportOptionsAdHoc.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		9AD5A0BB2DAF399A0088E21C /* testgithubactionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testgithubactionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD5A0BF2DAF399A0088E21C /* testgithubactionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testgithubactionUITests.m; sourceTree = "<group>"; };
 		9AD5A0C12DAF399A0088E21C /* testgithubactionUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testgithubactionUITestsLaunchTests.m; sourceTree = "<group>"; };
+		9AD5A0CE2DAF3C810088E21C /* exportOptionsAdHoc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exportOptionsAdHoc.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		9AD5A08A2DAF39960088E21C = {
 			isa = PBXGroup;
 			children = (
+				9AD5A0CE2DAF3C810088E21C /* exportOptionsAdHoc.plist */,
 				9AD5A0952DAF39960088E21C /* testgithubaction */,
 				9AD5A0B42DAF399A0088E21C /* testgithubactionTests */,
 				9AD5A0BE2DAF399A0088E21C /* testgithubactionUITests */,
@@ -160,7 +163,6 @@
 				18DA35CABD11FB6CCA01FAF0 /* Pods-testgithubaction.debug.xcconfig */,
 				390831EB0C861ACE17D2D8E9 /* Pods-testgithubaction.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -271,6 +273,7 @@
 				9AD5A0A92DAF399A0088E21C /* LaunchScreen.storyboard in Resources */,
 				9AD5A0A62DAF399A0088E21C /* Assets.xcassets in Resources */,
 				9AD5A0A12DAF39960088E21C /* Main.storyboard in Resources */,
+				9AD5A0CF2DAF3C810088E21C /* exportOptionsAdHoc.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
