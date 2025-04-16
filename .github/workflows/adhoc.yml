@@ -51,17 +51,17 @@ jobs:
 
     - name: Build the app
       run: |
-        xcodebuild -workspace SpeedMan.xcworkspace \
-                   -scheme SpeedMan \
+        xcodebuild -workspace testgithubaction.xcworkspace \
+                   -scheme testgithubaction \
                    -sdk iphoneos \
                    -configuration AdHoc \
-                   -archivePath $PWD/build/SpeedMan.xcarchive \
+                   -archivePath $PWD/build/testgithubaction.xcarchive \
                    -destination 'generic/platform=iOS' \
                    clean archive | xcpretty
 
     - name: Export IPA
       run: |
-        xcodebuild -archivePath $PWD/build/SpeedMan.xcarchive \
+        xcodebuild -archivePath $PWD/build/testgithubaction.xcarchive \
                    -exportOptionsPlist exportOptionsAdHoc.plist \
                    -exportPath $PWD/build \
            	   -allowProvisioningUpdates \
@@ -69,7 +69,7 @@ jobs:
 
     - name: Check IPA Exists
       run: |
-       if [ -f "build/SpeedMan.ipa" ]; then
+       if [ -f "build/testgithubaction.ipa" ]; then
         echo "IPA 生成成功"
        else
         echo "错误：未找到 IPA 文件！"
@@ -79,6 +79,6 @@ jobs:
     - name: Upload IPA
       uses: actions/upload-artifact@v4
       with:
-       name: SpeedMan.ipa
-       path: build/SpeedMan.ipa
+       name: testgithubaction.ipa
+       path: build/testgithubaction.ipa
 
