@@ -32,12 +32,11 @@ target 'testgithubaction' do
   pod 'JSONModel', '~> 1.2.0'
   
   # Firebase
-#  pod 'FirebaseCore'
-#  pod 'FirebaseAnalytics'
-#  pod 'FirebaseCrashlytics'
+  pod 'FirebaseAnalytics'
+  pod 'FirebaseCrashlytics'
 
   # 社交登录
-#  pod 'GoogleSignIn'
+  pod 'GoogleSignIn'
   pod 'FBSDKLoginKit','~> 17.0.3'
   pod 'FBSDKShareKit','~> 17.0.3'
 
@@ -54,7 +53,7 @@ target 'testgithubaction' do
   pod 'AppLovinMediationVungleAdapter','~> 7.4.1.0'
 
   #admob
-#  pod 'Google-Mobile-Ads-SDK','~> 11.1.0'
+  pod 'Google-Mobile-Ads-SDK','~> 11.1.0'
 
 
 
