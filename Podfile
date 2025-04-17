@@ -6,15 +6,15 @@ target 'testgithubaction' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-#  # 网络与数据
-#  pod 'Moya'
-#  pod 'SwiftyJSON'
-#  pod 'HandyJSON'
-#  
-#  # UI 工具
-#  pod 'SnapKit'
-#  pod 'HBDNavigationBar', '~> 1.7.5'
-#  pod 'Toast-Swift', '~> 5.0'  # https://github.com/scalessec/Toast-Swift
+  # 网络与数据
+  pod 'Moya'
+  pod 'SwiftyJSON'
+  pod 'HandyJSON'
+  
+  # UI 工具
+  pod 'SnapKit'
+  pod 'HBDNavigationBar', '~> 1.7.5'
+  pod 'Toast-Swift', '~> 5.0'  # https://github.com/scalessec/Toast-Swift
   
   # RxSwift 生态
   pod 'RxSwift'
@@ -32,11 +32,11 @@ target 'testgithubaction' do
   pod 'JSONModel', '~> 1.2.0'
   
   # Firebase
-  pod 'FirebaseAnalytics'
-  pod 'FirebaseCrashlytics'
-
-  # 社交登录
-  pod 'GoogleSignIn'
+#  pod 'FirebaseAnalytics'
+#  pod 'FirebaseCrashlytics'
+#
+#  # 社交登录
+#  pod 'GoogleSignIn'
   pod 'FBSDKLoginKit','~> 17.0.3'
   pod 'FBSDKShareKit','~> 17.0.3'
 
