@@ -44,7 +44,6 @@ jobs:
     - name: Clean Xcode Derived Data
       run: |
         rm -rf ~/Library/Developer/Xcode/DerivedData/*
-	xcodebuild clean
 
     - name: Install CocoaPods
       run: |
