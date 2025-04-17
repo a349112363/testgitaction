@@ -310,6 +310,7 @@ DEPENDENCIES:
   - FBSDKLoginKit (~> 17.0.3)
   - FBSDKShareKit (~> 17.0.3)
   - FirebaseAnalytics
+  - FirebaseCore
   - FirebaseCrashlytics
   - Google-Mobile-Ads-SDK (~> 11.1.0)
   - GoogleSignIn
@@ -448,6 +449,6 @@ SPEC CHECKSUMS:
   Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
   UnityAds: 5601f6397b0e02ed3ed6ee92827f5177a523aab6
 
-PODFILE CHECKSUM: 064a54544efd45510c89c92add5a15a002f0b27b
+PODFILE CHECKSUM: 67bbbcf82680e46c1db2b6a7bd60fddde5a379a9
 
 COCOAPODS: 1.16.2

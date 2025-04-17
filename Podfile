@@ -33,6 +33,7 @@ target 'testgithubaction' do
   pod 'JSONModel', '~> 1.2.0'
   
   # Firebase
+  pod 'FirebaseCore'
   pod 'FirebaseAnalytics'
   pod 'FirebaseCrashlytics'
 
