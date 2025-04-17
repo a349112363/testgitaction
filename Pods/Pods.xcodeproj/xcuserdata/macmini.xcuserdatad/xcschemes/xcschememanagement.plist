@@ -265,8 +265,6 @@
 		</dict>
 		<key>GTMBase64.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>47</integer>
 		</dict>
@@ -370,8 +368,6 @@
 		</dict>
 		<key>Hue.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>52</integer>
 		</dict>
@@ -391,15 +387,11 @@
 		</dict>
 		<key>JSONModel.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>55</integer>
 		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>56</integer>
 		</dict>
@@ -545,8 +537,6 @@
 		</dict>
 		<key>SwifterSwift.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
 			<integer>79</integer>
 		</dict>

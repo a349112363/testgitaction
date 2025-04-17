@@ -194,11 +194,9 @@ PODS:
   - GTMAppAuth (4.1.1):
     - AppAuth/Core (~> 1.7)
     - GTMSessionFetcher/Core (< 4.0, >= 3.3)
-  - GTMBase64 (1.0.1)
   - GTMSessionFetcher/Core (3.5.0)
   - HandyJSON (5.0.2)
   - HBDNavigationBar (1.7.7)
-  - Hue (5.0.0)
   - HyBid (3.0.1):
     - HyBid/Banner (= 3.0.1)
     - HyBid/Core (= 3.0.1)
@@ -214,8 +212,6 @@ PODS:
     - HyBid/Core
   - HyBid/RewardedVideo (3.0.1):
     - HyBid/Core
-  - JSONModel (1.2.0)
-  - MBProgressHUD (1.2.0)
   - MintegralAdSDK (7.6.2):
     - MintegralAdSDK/BannerAd (= 7.6.2)
     - MintegralAdSDK/BidBannerAd (= 7.6.2)
@@ -292,31 +288,6 @@ PODS:
     - RxCocoa (~> 6.0)
     - RxSwiftExt/Core
   - SnapKit (5.7.1)
-  - SwifterSwift (5.2.0):
-    - SwifterSwift/AppKit (= 5.2.0)
-    - SwifterSwift/CoreAnimation (= 5.2.0)
-    - SwifterSwift/CoreGraphics (= 5.2.0)
-    - SwifterSwift/CoreLocation (= 5.2.0)
-    - SwifterSwift/Dispatch (= 5.2.0)
-    - SwifterSwift/Foundation (= 5.2.0)
-    - SwifterSwift/MapKit (= 5.2.0)
-    - SwifterSwift/SceneKit (= 5.2.0)
-    - SwifterSwift/SpriteKit (= 5.2.0)
-    - SwifterSwift/StoreKit (= 5.2.0)
-    - SwifterSwift/SwiftStdlib (= 5.2.0)
-    - SwifterSwift/UIKit (= 5.2.0)
-  - SwifterSwift/AppKit (5.2.0)
-  - SwifterSwift/CoreAnimation (5.2.0)
-  - SwifterSwift/CoreGraphics (5.2.0)
-  - SwifterSwift/CoreLocation (5.2.0)
-  - SwifterSwift/Dispatch (5.2.0)
-  - SwifterSwift/Foundation (5.2.0)
-  - SwifterSwift/MapKit (5.2.0)
-  - SwifterSwift/SceneKit (5.2.0)
-  - SwifterSwift/SpriteKit (5.2.0)
-  - SwifterSwift/StoreKit (5.2.0)
-  - SwifterSwift/SwiftStdlib (5.2.0)
-  - SwifterSwift/UIKit (5.2.0)
   - SwiftyJSON (5.0.2)
   - Toast-Swift (5.1.1)
   - UnityAds (4.10.0)
@@ -337,12 +308,8 @@ DEPENDENCIES:
   - FirebaseCrashlytics
   - Google-Mobile-Ads-SDK (~> 11.1.0)
   - GoogleSignIn
-  - GTMBase64
   - HandyJSON
   - HBDNavigationBar (~> 1.7.5)
-  - Hue
-  - JSONModel (~> 1.2.0)
-  - MBProgressHUD
   - Moya
   - "NSObject+Rx (~> 5.0)"
   - RxCocoa
@@ -351,7 +318,6 @@ DEPENDENCIES:
   - RxSwift
   - RxSwiftExt
   - SnapKit
-  - SwifterSwift (~> 5.0)
   - SwiftyJSON
   - Toast-Swift (~> 5.0)
 
@@ -391,14 +357,10 @@ SPEC REPOS:
     - GoogleUserMessagingPlatform
     - GoogleUtilities
     - GTMAppAuth
-    - GTMBase64
     - GTMSessionFetcher
     - HandyJSON
     - HBDNavigationBar
-    - Hue
     - HyBid
-    - JSONModel
-    - MBProgressHUD
     - MintegralAdSDK
     - Moya
     - nanopb
@@ -412,7 +374,6 @@ SPEC REPOS:
     - RxSwift
     - RxSwiftExt
     - SnapKit
-    - SwifterSwift
     - SwiftyJSON
     - Toast-Swift
     - UnityAds
@@ -453,14 +414,10 @@ SPEC CHECKSUMS:
   GoogleUserMessagingPlatform: a8b56893477f67212fbc8411c139e61d463349f5
   GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
   GTMAppAuth: f69bd07d68cd3b766125f7e072c45d7340dea0de
-  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
   GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
-  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
   HyBid: 76a8a1c51a1a372dab1ea38648d2a55c2d752ad3
-  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
-  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MintegralAdSDK: 0f9b41d7d49d0e90cbe27cdcb62fc1208e25e85d
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
@@ -474,12 +431,11 @@ SPEC CHECKSUMS:
   RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
   RxSwiftExt: 43aaacb6a4d3c69c55e9d1cf4f79920043d13583
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
-  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
   Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
   UnityAds: 5601f6397b0e02ed3ed6ee92827f5177a523aab6
   VungleAds: 97140121d0b909891eb217d1c102a194601da607
 
-PODFILE CHECKSUM: 2e877af2ed373c5a73655c6545cda8e8dd8afaa5
+PODFILE CHECKSUM: 6ed784f839681c25743c9bb0a9ddb6b670975d94
 
 COCOAPODS: 1.16.2
