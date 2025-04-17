@@ -32,11 +32,11 @@ target 'testgithubaction' do
   pod 'JSONModel', '~> 1.2.0'
   
   # Firebase
-#  pod 'FirebaseAnalytics'
-#  pod 'FirebaseCrashlytics'
-#
-#  # 社交登录
-#  pod 'GoogleSignIn'
+  pod 'FirebaseAnalytics'
+  pod 'FirebaseCrashlytics'
+
+  # 社交登录
+  pod 'GoogleSignIn'
   pod 'FBSDKLoginKit','~> 17.0.3'
   pod 'FBSDKShareKit','~> 17.0.3'
 
