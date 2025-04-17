@@ -6,7 +6,7 @@ target 'testgithubaction' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   # 社交登录
-#  pod 'GoogleSignIn'
+  pod 'GoogleSignIn'
 #  pod 'FBSDKLoginKit','~> 17.0.3'
 #  pod 'FBSDKShareKit','~> 17.0.3'
 #  # 穿山甲
