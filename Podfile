@@ -15,14 +15,14 @@ target 'testgithubaction' do
   pod 'SnapKit'
   pod 'HBDNavigationBar', '~> 1.7.5'
   pod 'Toast-Swift', '~> 5.0'  # https://github.com/scalessec/Toast-Swift
-  
-  # RxSwift 生态
-  pod 'RxSwift'
-  pod 'RxCocoa'
-  pod 'RxGesture'
-  pod 'RxSwiftExt'
-  pod 'RxDataSources'
-  pod 'NSObject+Rx', '~> 5.0'
+#  
+#  # RxSwift 生态
+#  pod 'RxSwift'
+#  pod 'RxCocoa'
+#  pod 'RxGesture'
+#  pod 'RxSwiftExt'
+#  pod 'RxDataSources'
+#  pod 'NSObject+Rx', '~> 5.0'
 #  
 #  # 工具库
 #  pod 'SwifterSwift', '~> 5.0'
