@@ -102,6 +102,11 @@
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>Differentiator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FBAEMKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -256,6 +261,11 @@
 			<key>orderHint</key>
 			<integer>44</integer>
 		</dict>
+		<key>GTMBase64.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GTMSessionFetcher-GTMSessionFetcher_Core_Privacy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -354,6 +364,11 @@
 			<key>orderHint</key>
 			<integer>48</integer>
 		</dict>
+		<key>Hue.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>HyBid-HyBid_Privacy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -367,6 +382,16 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>50</integer>
+		</dict>
+		<key>JSONModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>MintegralAdSDK-MTGSDK.xcscheme</key>
 		<dict>
@@ -388,6 +413,11 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>54</integer>
+		</dict>
+		<key>NSObject+Rx.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-testgithubaction.xcscheme</key>
 		<dict>
@@ -424,6 +454,51 @@
 			<key>orderHint</key>
 			<integer>60</integer>
 		</dict>
+		<key>RxCocoa-RxCocoa_Privacy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxDataSources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxGesture.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxRelay-RxRelay_Privacy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxRelay.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxSwift-RxSwift_Privacy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxSwiftExt.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SnapKit-SnapKit_Privacy.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -437,6 +512,11 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>62</integer>
+		</dict>
+		<key>SwifterSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>SwiftyJSON-SwiftyJSON.xcscheme</key>
 		<dict>
