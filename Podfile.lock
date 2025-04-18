@@ -1,11 +1,11 @@
 PODS:
-  - Ads-Global (5.8.0.8):
-    - Ads-Global/BUAdSDK (= 5.8.0.8)
-  - Ads-Global/BUAdSDK (5.8.0.8):
+  - Ads-Global (5.8.0.9):
+    - Ads-Global/BUAdSDK (= 5.8.0.9)
+  - Ads-Global/BUAdSDK (5.8.0.9):
     - Ads-Global/BURelyAdSDK
     - Ads-Global/Dep_Accurate
-  - Ads-Global/BURelyAdSDK (5.8.0.8)
-  - Ads-Global/Dep_Accurate (5.8.0.8):
+  - Ads-Global/BURelyAdSDK (5.8.0.9)
+  - Ads-Global/Dep_Accurate (5.8.0.9):
     - BURelyFoundation_Global/Pangle (= 0.2.1.4)
   - Alamofire (5.10.2)
   - AppAuth (1.7.6):
@@ -317,7 +317,7 @@ SPEC REPOS:
     - Toast-Swift
 
 SPEC CHECKSUMS:
-  Ads-Global: b2f2943acdeedeae08aa9dce19706e1edbbd5442
+  Ads-Global: 2f69e9586d92a3bf8b0f385afbc14c312836f041
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
   AppAuth: d4f13a8fe0baf391b2108511793e4b479691fb73
   AppCheckCore: cc8fd0a3a230ddd401f326489c99990b013f0c4f
