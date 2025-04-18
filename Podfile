@@ -7,29 +7,29 @@ target 'testgithubaction' do
 #  use_frameworks!
   use_modular_headers!
   # 网络与数据
-#  pod 'Moya'
-#  pod 'SwiftyJSON'
-#  pod 'HandyJSON'
-#  
-#  # UI 工具
-#  pod 'SnapKit'
-#  pod 'HBDNavigationBar', '~> 1.7.5'
-#  pod 'Toast-Swift', '~> 5.0'  # https://github.com/scalessec/Toast-Swift
-#  
-#  # RxSwift 生态
-#  pod 'RxSwift'
-#  pod 'RxCocoa'
-#  pod 'RxGesture'
-#  pod 'RxSwiftExt'
-#  pod 'RxDataSources'
-#  pod 'NSObject+Rx', '~> 5.0'
-#  
-#  # 工具库
-#  pod 'SwifterSwift', '~> 5.0'
-#  pod 'MBProgressHUD'
-#  pod 'GTMBase64'
-#  pod 'Hue'
-#  pod 'JSONModel', '~> 1.2.0'
+  pod 'Moya'
+  pod 'SwiftyJSON'
+  pod 'HandyJSON'
+  
+  # UI 工具
+  pod 'SnapKit'
+  pod 'HBDNavigationBar', '~> 1.7.5'
+  pod 'Toast-Swift', '~> 5.0'  # https://github.com/scalessec/Toast-Swift
+  
+  # RxSwift 生态
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxGesture'
+  pod 'RxSwiftExt'
+  pod 'RxDataSources'
+  pod 'NSObject+Rx', '~> 5.0'
+  
+  # 工具库
+  pod 'SwifterSwift', '~> 5.0'
+  pod 'MBProgressHUD'
+  pod 'GTMBase64'
+  pod 'Hue'
+  pod 'JSONModel', '~> 1.2.0'
 
 
   
@@ -51,8 +51,8 @@ target 'testgithubaction' do
   pod 'AppLovinMediationMintegralAdapter','~> 7.6.2.0', :modular_headers => false
   pod 'AppLovinMediationByteDanceAdapter','~> 5.8.0.8', :modular_headers => false
   pod 'AppLovinMediationUnityAdsAdapter','~> 4.10.0.0', :modular_headers => false
-  pod 'AppLovinMediationVerveAdapter','~> 3.0.1.0', :modular_headers => false
-  pod 'AppLovinMediationVungleAdapter','~> 7.4.1.0', :modular_headers => false
+#  pod 'AppLovinMediationVerveAdapter','~> 3.0.1.0', :modular_headers => false
+#  pod 'AppLovinMediationVungleAdapter','~> 7.4.1.0', :modular_headers => false
 
   #admob
   pod 'Google-Mobile-Ads-SDK','~> 11.1.0', :modular_headers => false
