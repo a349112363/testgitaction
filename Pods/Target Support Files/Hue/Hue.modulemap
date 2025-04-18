@@ -1,4 +1,4 @@
-framework module Hue {
+module Hue {
   umbrella header "Hue-umbrella.h"
 
   export *

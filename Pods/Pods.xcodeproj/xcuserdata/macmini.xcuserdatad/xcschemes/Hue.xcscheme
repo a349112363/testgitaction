@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00D9B51B84230E50370AC70ADCF7F8AA"
-               BuildableName = "Hue.framework"
+               BuildableName = "libHue.a"
                BlueprintName = "Hue"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

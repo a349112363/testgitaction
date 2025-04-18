@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1075D76821AB59C63D215759CC7CB0A7"
-               BuildableName = "HBDNavigationBar.framework"
+               BuildableName = "libHBDNavigationBar.a"
                BlueprintName = "HBDNavigationBar"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
