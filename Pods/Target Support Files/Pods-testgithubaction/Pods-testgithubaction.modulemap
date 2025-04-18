@@ -1,4 +1,4 @@
-module Pods_testgithubaction {
+framework module Pods_testgithubaction {
   umbrella header "Pods-testgithubaction-umbrella.h"
 
   export *

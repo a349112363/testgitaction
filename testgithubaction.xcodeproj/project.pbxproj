@@ -18,7 +18,7 @@
 		9AC3FA532DB0906200CDD061 /* testgithubactionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3FA522DB0906200CDD061 /* testgithubactionUITests.swift */; };
 		9AC3FA552DB0906200CDD061 /* testgithubactionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3FA542DB0906200CDD061 /* testgithubactionUITestsLaunchTests.swift */; };
 		9AF14C5C2DB0C6AD00699AFB /* exportOptionsAdHoc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AF14C5B2DB0C6AD00699AFB /* exportOptionsAdHoc.plist */; };
-		E8B93603F137BF9A9442A1AF /* libPods-testgithubaction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7B699A601BE5781EBC4557 /* libPods-testgithubaction.a */; };
+		ECBD19B993F3416EAE7C18C0 /* Pods_testgithubaction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4398FF4D8869A5FFCFF37F /* Pods_testgithubaction.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		9AC3FA522DB0906200CDD061 /* testgithubactionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testgithubactionUITests.swift; sourceTree = "<group>"; };
 		9AC3FA542DB0906200CDD061 /* testgithubactionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testgithubactionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9AF14C5B2DB0C6AD00699AFB /* exportOptionsAdHoc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exportOptionsAdHoc.plist; sourceTree = "<group>"; };
-		AB7B699A601BE5781EBC4557 /* libPods-testgithubaction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testgithubaction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D477290C688132DF8BF0DE /* Pods-testgithubaction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testgithubaction.debug.xcconfig"; path = "Target Support Files/Pods-testgithubaction/Pods-testgithubaction.debug.xcconfig"; sourceTree = "<group>"; };
+		DE4398FF4D8869A5FFCFF37F /* Pods_testgithubaction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testgithubaction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E3533A7A273E68EF8347F8 /* Pods-testgithubaction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testgithubaction.release.xcconfig"; path = "Target Support Files/Pods-testgithubaction/Pods-testgithubaction.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B93603F137BF9A9442A1AF /* libPods-testgithubaction.a in Frameworks */,
+				ECBD19B993F3416EAE7C18C0 /* Pods_testgithubaction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +152,7 @@
 		FABBF1384659AEDDF3EB20D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB7B699A601BE5781EBC4557 /* libPods-testgithubaction.a */,
+				DE4398FF4D8869A5FFCFF37F /* Pods_testgithubaction.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

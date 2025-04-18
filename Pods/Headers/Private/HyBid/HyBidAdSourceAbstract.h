@@ -1,1 +1,0 @@
-../../../HyBid/PubnativeLite/PubnativeLite/Core/Auction/HyBidAdSourceAbstract.h
