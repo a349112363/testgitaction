@@ -25,11 +25,11 @@ target 'testgithubaction' do
 #  pod 'NSObject+Rx', '~> 5.0'
   
   # 工具库
-  pod 'SwifterSwift', '~> 5.0'
-  pod 'MBProgressHUD'
-  pod 'GTMBase64'
-  pod 'Hue'
-  pod 'JSONModel', '~> 1.2.0'
+#  pod 'SwifterSwift', '~> 5.0'
+#  pod 'MBProgressHUD'
+#  pod 'GTMBase64'
+#  pod 'Hue'
+#  pod 'JSONModel', '~> 1.2.0'
 
 
   
