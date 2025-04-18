@@ -47,6 +47,7 @@ jobs:
 
     - name: Install CocoaPods
       run: |
+        xcodebuild -resolvePackageDependencies -scheme testgithubaction -project testgithubaction.xcworkspace
         pod install
 
     - name: Build iOS App
