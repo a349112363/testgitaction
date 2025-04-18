@@ -4,8 +4,7 @@
 
 target 'testgithubaction' do
   # Comment the next line if you don't want to use dynamic frameworks
-#  use_frameworks!
-  use_modular_headers!
+  use_frameworks!
   # 网络与数据
   pod 'Moya'
   pod 'SwiftyJSON'
@@ -55,7 +54,7 @@ target 'testgithubaction' do
 #  pod 'AppLovinMediationVungleAdapter','~> 7.4.1.0', :modular_headers => false
 
   #admob
-  pod 'Google-Mobile-Ads-SDK','~> 11.1.0', :modular_headers => false
+  pod 'Google-Mobile-Ads-SDK','~> 11.1.0'
 
 
 

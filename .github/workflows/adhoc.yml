@@ -53,12 +53,12 @@ jobs:
 
     - name: Build iOS App
       run: |
-        set -o pipefail && xcodebuild clean archive \
-                   -workspace testgithubaction.xcworkspace \
+        xcodebuild -workspace testgithubaction.xcworkspace \
                    -scheme testgithubaction \
                    -sdk iphoneos \
                    -configuration AdHoc \
                    -archivePath $PWD/build/testgithubaction.xcarchive \
+                   -destination 'generic/platform=iOS' \
                    clean archive | xcpretty
 
     - name: Export IPA
