@@ -20,9 +20,9 @@ target 'testgithubaction' do
 #  pod 'RxSwift'
 #  pod 'RxCocoa'
 #  pod 'RxGesture'
-#  pod 'RxSwiftExt'
-#  pod 'RxDataSources'
-#  pod 'NSObject+Rx', '~> 5.0'
+  pod 'RxSwiftExt'
+  pod 'RxDataSources'
+  pod 'NSObject+Rx', '~> 5.0'
   
   # 工具库
   pod 'SwifterSwift', '~> 5.0'
