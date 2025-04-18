@@ -33,14 +33,14 @@ target 'testgithubaction' do
 
 
   
-  # Firebase
-  pod 'FirebaseAnalytics'
-  pod 'FirebaseCrashlytics'
-
-  # 社交登录
-  pod 'GoogleSignIn'
-  pod 'FBSDKLoginKit','~> 17.0.3'
-  pod 'FBSDKShareKit','~> 17.0.3'
+#  # Firebase
+#  pod 'FirebaseAnalytics'
+#  pod 'FirebaseCrashlytics'
+#
+#  # 社交登录
+#  pod 'GoogleSignIn'
+#  pod 'FBSDKLoginKit','~> 17.0.3'
+#  pod 'FBSDKShareKit','~> 17.0.3'
 
   # 穿山甲
 #  pod 'Ads-Global','~> 5.8.0.8'
