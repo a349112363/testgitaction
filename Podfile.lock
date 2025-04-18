@@ -29,6 +29,12 @@ PODS:
   - AppLovinMediationUnityAdsAdapter (4.10.0.0):
     - AppLovinSDK
     - UnityAds (= 4.10.0)
+  - AppLovinMediationVerveAdapter (3.0.1.0):
+    - AppLovinSDK
+    - HyBid (= 3.0.1)
+  - AppLovinMediationVungleAdapter (7.4.1.0):
+    - AppLovinSDK
+    - VungleAds (= 7.4.1)
   - AppLovinSDK (12.4.2)
   - BURelyFoundation_Global/AFNetworking (0.2.1.4)
   - BURelyFoundation_Global/APM (0.2.1.4)
@@ -58,7 +64,6 @@ PODS:
     - BURelyFoundation_Global/Zip
   - BURelyFoundation_Global/Zip (0.2.1.4):
     - BURelyFoundation_Global/Foundation
-  - Differentiator (5.0.0)
   - FBAEMKit (17.0.3):
     - FBSDKCoreKit_Basics (= 17.0.3)
   - FBAudienceNetwork (6.15.0)
@@ -181,13 +186,24 @@ PODS:
   - GTMAppAuth (4.1.1):
     - AppAuth/Core (~> 1.7)
     - GTMSessionFetcher/Core (< 4.0, >= 3.3)
-  - GTMBase64 (1.0.1)
   - GTMSessionFetcher/Core (3.5.0)
   - HandyJSON (5.0.2)
   - HBDNavigationBar (1.7.7)
-  - Hue (5.0.0)
-  - JSONModel (1.2.0)
-  - MBProgressHUD (1.2.0)
+  - HyBid (3.0.1):
+    - HyBid/Banner (= 3.0.1)
+    - HyBid/Core (= 3.0.1)
+    - HyBid/FullScreen (= 3.0.1)
+    - HyBid/Native (= 3.0.1)
+    - HyBid/RewardedVideo (= 3.0.1)
+  - HyBid/Banner (3.0.1):
+    - HyBid/Core
+  - HyBid/Core (3.0.1)
+  - HyBid/FullScreen (3.0.1):
+    - HyBid/Core
+  - HyBid/Native (3.0.1):
+    - HyBid/Core
+  - HyBid/RewardedVideo (3.0.1):
+    - HyBid/Core
   - MintegralAdSDK (7.6.2):
     - MintegralAdSDK/BannerAd (= 7.6.2)
     - MintegralAdSDK/BidBannerAd (= 7.6.2)
@@ -237,67 +253,22 @@ PODS:
     - nanopb/encode (= 3.30910.0)
   - nanopb/decode (3.30910.0)
   - nanopb/encode (3.30910.0)
-  - "NSObject+Rx (5.2.2)":
-    - RxSwift (~> 6.2)
   - PromisesObjC (2.4.0)
   - PromisesSwift (2.4.0):
     - PromisesObjC (= 2.4.0)
-  - RxCocoa (6.8.0):
-    - RxRelay (= 6.8.0)
-    - RxSwift (= 6.8.0)
-  - RxDataSources (5.0.0):
-    - Differentiator (~> 5.0)
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
-  - RxGesture (4.0.4):
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
-  - RxRelay (6.8.0):
-    - RxSwift (= 6.8.0)
-  - RxSwift (6.8.0)
-  - RxSwiftExt (6.2.1):
-    - RxSwiftExt/Core (= 6.2.1)
-    - RxSwiftExt/RxCocoa (= 6.2.1)
-  - RxSwiftExt/Core (6.2.1):
-    - RxSwift (~> 6.0)
-  - RxSwiftExt/RxCocoa (6.2.1):
-    - RxCocoa (~> 6.0)
-    - RxSwiftExt/Core
   - SnapKit (5.7.1)
-  - SwifterSwift (5.2.0):
-    - SwifterSwift/AppKit (= 5.2.0)
-    - SwifterSwift/CoreAnimation (= 5.2.0)
-    - SwifterSwift/CoreGraphics (= 5.2.0)
-    - SwifterSwift/CoreLocation (= 5.2.0)
-    - SwifterSwift/Dispatch (= 5.2.0)
-    - SwifterSwift/Foundation (= 5.2.0)
-    - SwifterSwift/MapKit (= 5.2.0)
-    - SwifterSwift/SceneKit (= 5.2.0)
-    - SwifterSwift/SpriteKit (= 5.2.0)
-    - SwifterSwift/StoreKit (= 5.2.0)
-    - SwifterSwift/SwiftStdlib (= 5.2.0)
-    - SwifterSwift/UIKit (= 5.2.0)
-  - SwifterSwift/AppKit (5.2.0)
-  - SwifterSwift/CoreAnimation (5.2.0)
-  - SwifterSwift/CoreGraphics (5.2.0)
-  - SwifterSwift/CoreLocation (5.2.0)
-  - SwifterSwift/Dispatch (5.2.0)
-  - SwifterSwift/Foundation (5.2.0)
-  - SwifterSwift/MapKit (5.2.0)
-  - SwifterSwift/SceneKit (5.2.0)
-  - SwifterSwift/SpriteKit (5.2.0)
-  - SwifterSwift/StoreKit (5.2.0)
-  - SwifterSwift/SwiftStdlib (5.2.0)
-  - SwifterSwift/UIKit (5.2.0)
   - SwiftyJSON (5.0.2)
   - Toast-Swift (5.1.1)
   - UnityAds (4.10.0)
+  - VungleAds (7.4.1)
 
 DEPENDENCIES:
   - AppLovinMediationByteDanceAdapter (~> 5.8.0.8)
   - AppLovinMediationFacebookAdapter (~> 6.15.0.0)
   - AppLovinMediationMintegralAdapter (~> 7.6.2.0)
   - AppLovinMediationUnityAdsAdapter (~> 4.10.0.0)
+  - AppLovinMediationVerveAdapter (~> 3.0.1.0)
+  - AppLovinMediationVungleAdapter (~> 7.4.1.0)
   - AppLovinSDK (~> 12.4.1)
   - FBSDKLoginKit (~> 17.0.3)
   - FBSDKShareKit (~> 17.0.3)
@@ -305,21 +276,10 @@ DEPENDENCIES:
   - FirebaseCrashlytics
   - Google-Mobile-Ads-SDK (~> 11.1.0)
   - GoogleSignIn
-  - GTMBase64
   - HandyJSON
   - HBDNavigationBar (~> 1.7.5)
-  - Hue
-  - JSONModel (~> 1.2.0)
-  - MBProgressHUD
   - Moya
-  - "NSObject+Rx (~> 5.0)"
-  - RxCocoa
-  - RxDataSources
-  - RxGesture
-  - RxSwift
-  - RxSwiftExt
   - SnapKit
-  - SwifterSwift (~> 5.0)
   - SwiftyJSON
   - Toast-Swift (~> 5.0)
 
@@ -333,9 +293,10 @@ SPEC REPOS:
     - AppLovinMediationFacebookAdapter
     - AppLovinMediationMintegralAdapter
     - AppLovinMediationUnityAdsAdapter
+    - AppLovinMediationVerveAdapter
+    - AppLovinMediationVungleAdapter
     - AppLovinSDK
     - BURelyFoundation_Global
-    - Differentiator
     - FBAEMKit
     - FBAudienceNetwork
     - FBSDKCoreKit
@@ -357,30 +318,20 @@ SPEC REPOS:
     - GoogleUserMessagingPlatform
     - GoogleUtilities
     - GTMAppAuth
-    - GTMBase64
     - GTMSessionFetcher
     - HandyJSON
     - HBDNavigationBar
-    - Hue
-    - JSONModel
-    - MBProgressHUD
+    - HyBid
     - MintegralAdSDK
     - Moya
     - nanopb
-    - "NSObject+Rx"
     - PromisesObjC
     - PromisesSwift
-    - RxCocoa
-    - RxDataSources
-    - RxGesture
-    - RxRelay
-    - RxSwift
-    - RxSwiftExt
     - SnapKit
-    - SwifterSwift
     - SwiftyJSON
     - Toast-Swift
     - UnityAds
+    - VungleAds
 
 SPEC CHECKSUMS:
   Ads-Global: b2f2943acdeedeae08aa9dce19706e1edbbd5442
@@ -391,9 +342,10 @@ SPEC CHECKSUMS:
   AppLovinMediationFacebookAdapter: 30ddfcb09c1c9ff6778ba974f58e8f3204e6eebc
   AppLovinMediationMintegralAdapter: fdafed44fa0b160cda17a923389f96b6c1169a05
   AppLovinMediationUnityAdsAdapter: d6d5bf488adce05684bf00e0845af49a96a1aadd
+  AppLovinMediationVerveAdapter: 5cf0e06b923a5f833afe0a870fe4ef31fbbf916e
+  AppLovinMediationVungleAdapter: 7f092e3527007637dfb90ba816aa6d96e208d319
   AppLovinSDK: 0d28d095238ec35cf1dc408ca2d983fb7a1803bb
   BURelyFoundation_Global: 17ed9cd58d138feefd8c0711dd3294766adcb28e
-  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   FBAEMKit: 9900b2edd99a2d21629a6277e6166f14c6215799
   FBAudienceNetwork: 80a035aa69cc3a71c99e44cb5c2874e4cef9909f
   FBSDKCoreKit: 0791f8f68a8630931a4c12aa23a56cc021551596
@@ -415,31 +367,21 @@ SPEC CHECKSUMS:
   GoogleUserMessagingPlatform: a8b56893477f67212fbc8411c139e61d463349f5
   GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
   GTMAppAuth: f69bd07d68cd3b766125f7e072c45d7340dea0de
-  GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
   GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
-  Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
-  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
-  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  HyBid: 76a8a1c51a1a372dab1ea38648d2a55c2d752ad3
   MintegralAdSDK: 0f9b41d7d49d0e90cbe27cdcb62fc1208e25e85d
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
-  "NSObject+Rx": 61cf1f7306a73dcef8b36649198af0813ec18dfd
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
-  RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
-  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
-  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
-  RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
-  RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
-  RxSwiftExt: 43aaacb6a4d3c69c55e9d1cf4f79920043d13583
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
-  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
   Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
   UnityAds: 5601f6397b0e02ed3ed6ee92827f5177a523aab6
+  VungleAds: 97140121d0b909891eb217d1c102a194601da607
 
-PODFILE CHECKSUM: 7b31d54e05f6c205367399722aa35209f8a08d41
+PODFILE CHECKSUM: 577c5fefdf8bffec0349ff25bde30d49c92ad37a
 
 COCOAPODS: 1.16.2
