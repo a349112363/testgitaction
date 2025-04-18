@@ -4,7 +4,7 @@
 
 target 'testgithubaction' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+#  use_frameworks!
 
   # 网络与数据
   pod 'Moya'
@@ -53,7 +53,7 @@ target 'testgithubaction' do
   pod 'AppLovinMediationVungleAdapter','~> 7.4.1.0'
 
   #admob
-#  pod 'Google-Mobile-Ads-SDK','~> 11.1.0'
+  pod 'Google-Mobile-Ads-SDK','~> 11.1.0'
 
 
 
