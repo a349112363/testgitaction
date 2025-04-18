@@ -47,17 +47,19 @@ jobs:
 
     - name: Install CocoaPods
       run: |
-        pod install
+        pod --version
+        rm -rf Pods
+        pod install --verbose
 
-    - name: Build the app
+    - name: Build iOS App
       run: |
-        xcodebuild -workspace testgithubaction.xcworkspace \
+        set -o pipefail && xcodebuild clean archive \
+                   -workspace testgithubaction.xcworkspace \
                    -scheme testgithubaction \
                    -sdk iphoneos \
-                   -configuration AdHoc \
+                   -configuration Release \
                    -archivePath $PWD/build/testgithubaction.xcarchive \
-                   -destination 'generic/platform=iOS' \
-                   clean archive | xcpretty
+                   | tee build.log
 
     - name: Export IPA
       run: |
