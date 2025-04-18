@@ -169,6 +169,7 @@
 				9AC3FA282DB0906000CDD061 /* Frameworks */,
 				9AC3FA292DB0906000CDD061 /* Resources */,
 				383E7AA2816AA70CE54134CE /* [CP] Embed Pods Frameworks */,
+				0D9BFE443D65BD6F9360B7C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,6 +288,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0D9BFE443D65BD6F9360B7C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		383E7AA2816AA70CE54134CE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
