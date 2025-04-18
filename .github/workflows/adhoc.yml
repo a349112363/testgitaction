@@ -49,7 +49,7 @@ jobs:
       run: |
         pod --version
         rm -rf Pods
-        pod install --verbose
+        pod install
 
     - name: Build iOS App
       run: |
@@ -57,9 +57,9 @@ jobs:
                    -workspace testgithubaction.xcworkspace \
                    -scheme testgithubaction \
                    -sdk iphoneos \
-                   -configuration Release \
+                   -configuration AdHoc \
                    -archivePath $PWD/build/testgithubaction.xcarchive \
-                   | tee build.log
+                   clean archive | xcpretty
 
     - name: Export IPA
       run: |
