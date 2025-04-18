@@ -9,6 +9,8 @@ jobs:
   build:
     name: Deploying
     runs-on: macos-latest
+    env:
+      COCOAPODS_PARALLEL_CODE_SIGN: "true"  # 启用并行签名
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -44,6 +46,14 @@ jobs:
     - name: Clean Xcode Derived Data
       run: |
         rm -rf ~/Library/Developer/Xcode/DerivedData/*
+
+    - name: Cache Pods
+      uses: actions/cache@v3
+      with:
+        path: |
+          Pods/
+          ~/.cocoapods/repos
+        key: ${{ runner.os }}-pods-${{ hashFiles('Podfile.lock') }}
 
     - name: Install CocoaPods
       run: |
