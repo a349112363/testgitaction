@@ -185,14 +185,13 @@
 				9AC3FA292DB0906000CDD061 /* Resources */,
 				9AECE3732DB22FB3000F75A6 /* Embed Frameworks */,
 				9B0AA3699878FDF63AD1B0B0 /* [CP] Embed Pods Frameworks */,
+				A5AA4B81BADB9696EA414C4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = testgithubaction;
-			packageProductDependencies = (
-			);
 			productName = testgithubaction;
 			productReference = 9AC3FA2B2DB0906000CDD061 /* testgithubaction.app */;
 			productType = "com.apple.product-type.application";
@@ -267,6 +266,8 @@
 			mainGroup = 9AC3FA222DB0906000CDD061;
 			packageReferences = (
 				9AC9EFCC2DB2346700B711B5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				9AC9EFCD2DB239B200B711B5 /* XCRemoteSwiftPackageReference "Hue" */,
+				9AC9EFCE2DB23A0700B711B5 /* XCRemoteSwiftPackageReference "SwifterSwift" */,
 			);
 			productRefGroup = 9AC3FA2C2DB0906000CDD061 /* Products */;
 			projectDirPath = "";
@@ -345,6 +346,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5AA4B81BADB9696EA414C4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -740,6 +758,22 @@
 			requirement = {
 				kind = exactVersion;
 				version = 8.0.0;
+			};
+		};
+		9AC9EFCD2DB239B200B711B5 /* XCRemoteSwiftPackageReference "Hue" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zenangst/Hue.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.1;
+			};
+		};
+		9AC9EFCE2DB23A0700B711B5 /* XCRemoteSwiftPackageReference "SwifterSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwifterSwift/SwifterSwift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
