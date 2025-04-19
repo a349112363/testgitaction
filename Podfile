@@ -30,8 +30,8 @@ target 'testgithubaction' do
   pod 'Hue'
   pod 'JSONModel', '~> 1.2.0'
 
-#  # Firebase
-#  pod 'FirebaseAnalytics','~> 11.4.0'
+  # Firebase
+  pod 'FirebaseAnalytics','~> 11.4.0'
 #  pod 'FirebaseCrashlytics','~> 11.4.0'
 #
 #  # 社交登录
