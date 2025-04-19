@@ -4,29 +4,29 @@ target 'testgithubaction' do
   use_frameworks!
 
   # 网络与数据
-  pod 'Moya', :modular_headers => true
-  pod 'SwiftyJSON', :modular_headers => true
-  pod 'HandyJSON', :modular_headers => true
+  pod 'Moya'
+  pod 'SwiftyJSON'
+  pod 'HandyJSON'
 
   # UI 工具
-  pod 'SnapKit', :modular_headers => true
-  pod 'HBDNavigationBar', '~> 1.7.5', :modular_headers => true
-  pod 'Toast-Swift', '~> 5.0', :modular_headers => true
+  pod 'SnapKit'
+  pod 'HBDNavigationBar', '~> 1.7.5'
+  pod 'Toast-Swift', '~> 5.0'
 
   # RxSwift 生态
-  pod 'RxSwift', :modular_headers => true
-  pod 'RxCocoa', :modular_headers => true
-  pod 'RxGesture', :modular_headers => true
-  pod 'RxSwiftExt', :modular_headers => true
-  pod 'RxDataSources', :modular_headers => true
-  pod 'NSObject+Rx', '~> 5.0', :modular_headers => true
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxGesture'
+  pod 'RxSwiftExt'
+  pod 'RxDataSources'
+  pod 'NSObject+Rx', '~> 5.0'
 
   # 工具库
-  pod 'SwifterSwift', '~> 5.0', :modular_headers => true
-  pod 'MBProgressHUD', :modular_headers => true
-  pod 'GTMBase64', :modular_headers => true
-  pod 'Hue', :modular_headers => true
-  pod 'JSONModel', '~> 1.2.0', :modular_headers => true
+  pod 'SwifterSwift', '~> 5.0'
+  pod 'MBProgressHUD'
+  pod 'GTMBase64'
+  pod 'Hue'
+  pod 'JSONModel', '~> 1.2.0'
 
   # Firebase 相关，强制动态库模式
   pod 'FirebaseAnalytics','~> 11.4.0'
@@ -41,13 +41,13 @@ target 'testgithubaction' do
   pod 'Ads-Global','~> 5.8.0.8'
 
   # max
-  pod 'AppLovinSDK','~> 12.4.1'
-  pod 'AppLovinMediationFacebookAdapter','~> 6.15.0.0'
-  pod 'AppLovinMediationMintegralAdapter','~> 7.6.2.0'
-  pod 'AppLovinMediationByteDanceAdapter','~> 5.8.0.8'
-  pod 'AppLovinMediationUnityAdsAdapter','~> 4.10.0.0'
-  pod 'AppLovinMediationVerveAdapter','~> 3.0.1.0'
-  pod 'AppLovinMediationVungleAdapter','~> 7.4.1.0'
+  pod 'AppLovinSDK','~> 12.4.1', :modular_headers => true
+  pod 'AppLovinMediationFacebookAdapter','~> 6.15.0.0', :modular_headers => true
+  pod 'AppLovinMediationMintegralAdapter','~> 7.6.2.0', :modular_headers => true
+  pod 'AppLovinMediationByteDanceAdapter','~> 5.8.0.8', :modular_headers => true
+  pod 'AppLovinMediationUnityAdsAdapter','~> 4.10.0.0', :modular_headers => true
+  pod 'AppLovinMediationVerveAdapter','~> 3.0.1.0', :modular_headers => true
+  pod 'AppLovinMediationVungleAdapter','~> 7.4.1.0', :modular_headers => true
 
   # admob
   pod 'Google-Mobile-Ads-SDK','~> 11.1.0'
