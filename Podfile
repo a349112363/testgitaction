@@ -41,13 +41,13 @@ target 'testgithubaction' do
   pod 'Ads-Global','~> 5.8.0.8'
 
   # max
-  pod 'AppLovinSDK','~> 12.4.1'
-  pod 'AppLovinMediationFacebookAdapter','~> 6.15.0.0'
-  pod 'AppLovinMediationMintegralAdapter','~> 7.6.2.0'
-  pod 'AppLovinMediationByteDanceAdapter','~> 5.8.0.8'
-  pod 'AppLovinMediationUnityAdsAdapter','~> 4.10.0.0'
-  pod 'AppLovinMediationVerveAdapter','~> 3.0.1.0'
-  pod 'AppLovinMediationVungleAdapter','~> 7.4.1.0'
+  pod 'AppLovinSDK','~> 12.4.1', :modular_headers => true
+  pod 'AppLovinMediationFacebookAdapter','~> 6.15.0.0', :modular_headers => true
+  pod 'AppLovinMediationMintegralAdapter','~> 7.6.2.0', :modular_headers => true
+  pod 'AppLovinMediationByteDanceAdapter','~> 5.8.0.8', :modular_headers => true
+  pod 'AppLovinMediationUnityAdsAdapter','~> 4.10.0.0', :modular_headers => true
+  pod 'AppLovinMediationVerveAdapter','~> 3.0.1.0', :modular_headers => true
+  pod 'AppLovinMediationVungleAdapter','~> 7.4.1.0', :modular_headers => true
 
   # admob
   pod 'Google-Mobile-Ads-SDK','~> 11.1.0'
