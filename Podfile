@@ -29,7 +29,7 @@ target 'testgithubaction' do
   pod 'JSONModel', '~> 1.2.0'
 
   # Firebase 相关，强制动态库模式
-  pod 'FirebaseAnalytics','~> 11.4.0'
+#  pod 'FirebaseAnalytics','~> 11.4.0'
   pod 'FirebaseCrashlytics','~> 11.4.0'
 
   # 社交登录
