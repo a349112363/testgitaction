@@ -32,7 +32,7 @@ target 'testgithubaction' do
 
   # Firebase
   pod 'FirebaseAnalytics','~> 11.4.0'
-#  pod 'FirebaseCrashlytics','~> 11.4.0'
+  pod 'FirebaseCrashlytics','~> 11.4.0'
 #
   # 社交登录
   pod 'GoogleSignIn'

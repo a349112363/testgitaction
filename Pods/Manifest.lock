@@ -13,6 +13,16 @@ PODS:
   - Ads-Global/Dep_Compatible (5.8.0.8):
     - BURelyFoundation_Global/Pangle (~> 0.2.1.4)
   - Alamofire (5.10.2)
+  - AppAuth (1.7.6):
+    - AppAuth/Core (= 1.7.6)
+    - AppAuth/ExternalUserAgent (= 1.7.6)
+  - AppAuth/Core (1.7.6)
+  - AppAuth/ExternalUserAgent (1.7.6):
+    - AppAuth/Core
+  - AppCheckCore (11.2.0):
+    - GoogleUtilities/Environment (~> 8.0)
+    - GoogleUtilities/UserDefaults (~> 8.0)
+    - PromisesObjC (~> 2.4)
   - AppLovinMediationByteDanceAdapter (5.8.0.8.1):
     - Ads-Global/BUAdSDK_Compatible (= 5.8.0.8)
     - AppLovinSDK
@@ -26,6 +36,12 @@ PODS:
   - AppLovinMediationUnityAdsAdapter (4.10.0.0):
     - AppLovinSDK
     - UnityAds (= 4.10.0)
+  - AppLovinMediationVerveAdapter (3.0.1.0):
+    - AppLovinSDK
+    - HyBid (= 3.0.1)
+  - AppLovinMediationVungleAdapter (7.4.1.0):
+    - AppLovinSDK
+    - VungleAds (= 7.4.1)
   - AppLovinSDK (12.4.2)
   - BURelyFoundation_Global/AFNetworking (0.2.1.4)
   - BURelyFoundation_Global/APM (0.2.1.4)
@@ -56,14 +72,124 @@ PODS:
   - BURelyFoundation_Global/Zip (0.2.1.4):
     - BURelyFoundation_Global/Foundation
   - Differentiator (5.0.0)
+  - FBAEMKit (17.0.3):
+    - FBSDKCoreKit_Basics (= 17.0.3)
   - FBAudienceNetwork (6.15.0)
+  - FBSDKCoreKit (17.0.3):
+    - FBAEMKit (= 17.0.3)
+    - FBSDKCoreKit_Basics (= 17.0.3)
+  - FBSDKCoreKit_Basics (17.0.3)
+  - FBSDKLoginKit (17.0.3):
+    - FBSDKCoreKit (= 17.0.3)
+  - FBSDKShareKit (17.0.3):
+    - FBSDKCoreKit (= 17.0.3)
+  - FirebaseAnalytics (11.4.0):
+    - FirebaseAnalytics/AdIdSupport (= 11.4.0)
+    - FirebaseCore (~> 11.0)
+    - FirebaseInstallations (~> 11.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - FirebaseAnalytics/AdIdSupport (11.4.0):
+    - FirebaseCore (~> 11.0)
+    - FirebaseInstallations (~> 11.0)
+    - GoogleAppMeasurement (= 11.4.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - FirebaseCore (11.11.0):
+    - FirebaseCoreInternal (~> 11.11.0)
+    - GoogleUtilities/Environment (~> 8.0)
+    - GoogleUtilities/Logger (~> 8.0)
+  - FirebaseCoreInternal (11.11.0):
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+  - FirebaseInstallations (11.11.0):
+    - FirebaseCore (~> 11.11.0)
+    - GoogleUtilities/Environment (~> 8.0)
+    - GoogleUtilities/UserDefaults (~> 8.0)
+    - PromisesObjC (~> 2.4)
   - Google-Mobile-Ads-SDK (11.1.0):
     - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleAppMeasurement (11.4.0):
+    - GoogleAppMeasurement/AdIdSupport (= 11.4.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - GoogleAppMeasurement/AdIdSupport (11.4.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 11.4.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (11.4.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.0)
+    - GoogleUtilities/MethodSwizzler (~> 8.0)
+    - GoogleUtilities/Network (~> 8.0)
+    - "GoogleUtilities/NSData+zlib (~> 8.0)"
+    - nanopb (~> 3.30910.0)
+  - GoogleSignIn (8.0.0):
+    - AppAuth (< 2.0, >= 1.7.3)
+    - AppCheckCore (~> 11.0)
+    - GTMAppAuth (< 5.0, >= 4.1.1)
+    - GTMSessionFetcher/Core (~> 3.3)
   - GoogleUserMessagingPlatform (3.0.0)
+  - GoogleUtilities/AppDelegateSwizzler (8.0.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Environment (8.0.2):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Logger (8.0.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/MethodSwizzler (8.0.2):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (8.0.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (8.0.2)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (8.0.2)
+  - GoogleUtilities/Reachability (8.0.2):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/UserDefaults (8.0.2):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GTMAppAuth (4.1.1):
+    - AppAuth/Core (~> 1.7)
+    - GTMSessionFetcher/Core (< 4.0, >= 3.3)
   - GTMBase64 (1.0.1)
+  - GTMSessionFetcher/Core (3.5.0)
   - HandyJSON (5.0.2)
   - HBDNavigationBar (1.7.7)
   - Hue (5.0.0)
+  - HyBid (3.0.1):
+    - HyBid/Banner (= 3.0.1)
+    - HyBid/Core (= 3.0.1)
+    - HyBid/FullScreen (= 3.0.1)
+    - HyBid/Native (= 3.0.1)
+    - HyBid/RewardedVideo (= 3.0.1)
+  - HyBid/Banner (3.0.1):
+    - HyBid/Core
+  - HyBid/Core (3.0.1)
+  - HyBid/FullScreen (3.0.1):
+    - HyBid/Core
+  - HyBid/Native (3.0.1):
+    - HyBid/Core
+  - HyBid/RewardedVideo (3.0.1):
+    - HyBid/Core
   - JSONModel (1.2.0)
   - MBProgressHUD (1.2.0)
   - MintegralAdSDK (7.6.2):
@@ -110,8 +236,14 @@ PODS:
     - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
+  - nanopb (3.30910.0):
+    - nanopb/decode (= 3.30910.0)
+    - nanopb/encode (= 3.30910.0)
+  - nanopb/decode (3.30910.0)
+  - nanopb/encode (3.30910.0)
   - "NSObject+Rx (5.2.2)":
     - RxSwift (~> 6.2)
+  - PromisesObjC (2.4.0)
   - RxCocoa (6.9.0):
     - RxRelay (= 6.9.0)
     - RxSwift (= 6.9.0)
@@ -162,6 +294,7 @@ PODS:
   - SwiftyJSON (5.0.2)
   - Toast-Swift (5.1.1)
   - UnityAds (4.10.0)
+  - VungleAds (7.4.1)
 
 DEPENDENCIES:
   - Ads-Global (~> 5.8.0.8)
@@ -169,8 +302,14 @@ DEPENDENCIES:
   - AppLovinMediationFacebookAdapter (~> 6.15.0.0)
   - AppLovinMediationMintegralAdapter (~> 7.6.2.0)
   - AppLovinMediationUnityAdsAdapter (~> 4.10.0.0)
+  - AppLovinMediationVerveAdapter (~> 3.0.1.0)
+  - AppLovinMediationVungleAdapter (~> 7.4.1.0)
   - AppLovinSDK (~> 12.4.1)
+  - FBSDKLoginKit (~> 17.0.3)
+  - FBSDKShareKit (~> 17.0.3)
+  - FirebaseAnalytics (~> 11.4.0)
   - Google-Mobile-Ads-SDK (~> 11.1.0)
+  - GoogleSignIn
   - GTMBase64
   - HandyJSON
   - HBDNavigationBar (~> 1.7.5)
@@ -193,25 +332,46 @@ SPEC REPOS:
   trunk:
     - Ads-Global
     - Alamofire
+    - AppAuth
+    - AppCheckCore
     - AppLovinMediationByteDanceAdapter
     - AppLovinMediationFacebookAdapter
     - AppLovinMediationMintegralAdapter
     - AppLovinMediationUnityAdsAdapter
+    - AppLovinMediationVerveAdapter
+    - AppLovinMediationVungleAdapter
     - AppLovinSDK
     - BURelyFoundation_Global
     - Differentiator
+    - FBAEMKit
     - FBAudienceNetwork
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - FirebaseInstallations
     - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleSignIn
     - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - GTMAppAuth
     - GTMBase64
+    - GTMSessionFetcher
     - HandyJSON
     - HBDNavigationBar
     - Hue
+    - HyBid
     - JSONModel
     - MBProgressHUD
     - MintegralAdSDK
     - Moya
+    - nanopb
     - "NSObject+Rx"
+    - PromisesObjC
     - RxCocoa
     - RxDataSources
     - RxGesture
@@ -223,29 +383,51 @@ SPEC REPOS:
     - SwiftyJSON
     - Toast-Swift
     - UnityAds
+    - VungleAds
 
 SPEC CHECKSUMS:
   Ads-Global: b2f2943acdeedeae08aa9dce19706e1edbbd5442
   Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  AppAuth: d4f13a8fe0baf391b2108511793e4b479691fb73
+  AppCheckCore: cc8fd0a3a230ddd401f326489c99990b013f0c4f
   AppLovinMediationByteDanceAdapter: 27b8be075f7371bf2fd4637c4ee40debfb9ab4d8
   AppLovinMediationFacebookAdapter: 30ddfcb09c1c9ff6778ba974f58e8f3204e6eebc
   AppLovinMediationMintegralAdapter: fdafed44fa0b160cda17a923389f96b6c1169a05
   AppLovinMediationUnityAdsAdapter: d6d5bf488adce05684bf00e0845af49a96a1aadd
+  AppLovinMediationVerveAdapter: 5cf0e06b923a5f833afe0a870fe4ef31fbbf916e
+  AppLovinMediationVungleAdapter: 7f092e3527007637dfb90ba816aa6d96e208d319
   AppLovinSDK: 0d28d095238ec35cf1dc408ca2d983fb7a1803bb
   BURelyFoundation_Global: 17ed9cd58d138feefd8c0711dd3294766adcb28e
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  FBAEMKit: 9900b2edd99a2d21629a6277e6166f14c6215799
   FBAudienceNetwork: 80a035aa69cc3a71c99e44cb5c2874e4cef9909f
+  FBSDKCoreKit: 0791f8f68a8630931a4c12aa23a56cc021551596
+  FBSDKCoreKit_Basics: 46d6b472c0dd0a5a7e972c025033d1c567f54eb4
+  FBSDKLoginKit: b4a4eba1d62eb452544411824f41689adabd5bd2
+  FBSDKShareKit: eb1169eafe3c06f881dc6deed2d7979585b16959
+  FirebaseAnalytics: 3feef9ae8733c567866342a1000691baaa7cad49
+  FirebaseCore: 2321536f9c423b1f857e047a82b8a42abc6d9e2c
+  FirebaseCoreInternal: 31ee350d87b30a9349e907f84bf49ef8e6791e5a
+  FirebaseInstallations: 781e0e37aa0e1c92b44d00e739aba79ad31b2dba
   Google-Mobile-Ads-SDK: 4a1f2ccef63660f9a74efc6a6ea979483d421aaa
+  GoogleAppMeasurement: 987769c4ca6b968f2479fbcc9fe3ce34af454b8e
+  GoogleSignIn: ce8c89bb9b37fb624b92e7514cc67335d1e277e4
   GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
+  GoogleUtilities: 26a3abef001b6533cf678d3eb38fd3f614b7872d
+  GTMAppAuth: f69bd07d68cd3b766125f7e072c45d7340dea0de
   GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
+  GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
   Hue: c129cb67be7d093a82bbbc30ce8a96757bf6f37a
+  HyBid: 76a8a1c51a1a372dab1ea38648d2a55c2d752ad3
   JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MintegralAdSDK: 0f9b41d7d49d0e90cbe27cdcb62fc1208e25e85d
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
   "NSObject+Rx": 61cf1f7306a73dcef8b36649198af0813ec18dfd
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   RxCocoa: ac16414696ae706516be3e1ab00fcce5bdc9be8a
   RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
@@ -257,7 +439,8 @@ SPEC CHECKSUMS:
   SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
   Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
   UnityAds: 5601f6397b0e02ed3ed6ee92827f5177a523aab6
+  VungleAds: 97140121d0b909891eb217d1c102a194601da607
 
-PODFILE CHECKSUM: 78e827c6d0516988f7764bb8910242e831dc0788
+PODFILE CHECKSUM: 6b04d94037e1eed3d36f38506fe1f89207635b6b
 
 COCOAPODS: 1.16.2

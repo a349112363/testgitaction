@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D23996766545F064EC7EA51 /* libPods-testgithubaction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0A5C891268F5D423F70F1F /* libPods-testgithubaction.a */; };
 		9AC3FA2F2DB0906000CDD061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3FA2E2DB0906000CDD061 /* AppDelegate.swift */; };
 		9AC3FA312DB0906000CDD061 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3FA302DB0906000CDD061 /* SceneDelegate.swift */; };
 		9AC3FA332DB0906000CDD061 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3FA322DB0906000CDD061 /* ViewController.swift */; };
@@ -18,7 +19,6 @@
 		9AC3FA532DB0906200CDD061 /* testgithubactionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3FA522DB0906200CDD061 /* testgithubactionUITests.swift */; };
 		9AC3FA552DB0906200CDD061 /* testgithubactionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3FA542DB0906200CDD061 /* testgithubactionUITestsLaunchTests.swift */; };
 		9AF14C5C2DB0C6AD00699AFB /* exportOptionsAdHoc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AF14C5B2DB0C6AD00699AFB /* exportOptionsAdHoc.plist */; };
-		E63853C03F2A966E791C1F43 /* Pods_testgithubaction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3FFFCAF0E7059B95341E12 /* Pods_testgithubaction.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5D3FFFCAF0E7059B95341E12 /* Pods_testgithubaction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testgithubaction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0A5C891268F5D423F70F1F /* libPods-testgithubaction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testgithubaction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7087162DB2277200CC5C04 /* nanopb */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = nanopb; path = "/Users/macmini/Library/Developer/Xcode/DerivedData/testgithubaction-fditoaotfmwbtubhxbyrjukelbte/SourcePackages/checkouts/nanopb"; sourceTree = "<absolute>"; };
 		9AC3FA2B2DB0906000CDD061 /* testgithubaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testgithubaction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC3FA2E2DB0906000CDD061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E63853C03F2A966E791C1F43 /* Pods_testgithubaction.framework in Frameworks */,
+				1D23996766545F064EC7EA51 /* libPods-testgithubaction.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				9A7087162DB2277200CC5C04 /* nanopb */,
-				5D3FFFCAF0E7059B95341E12 /* Pods_testgithubaction.framework */,
+				6D0A5C891268F5D423F70F1F /* libPods-testgithubaction.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
