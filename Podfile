@@ -1,7 +1,7 @@
 platform :ios, '12.0'
 
 target 'testgithubaction' do
-  use_frameworks!
+  use_frameworks! :linkage => :static
 
   # 网络与数据
   pod 'Moya'
@@ -51,4 +51,10 @@ target 'testgithubaction' do
 
   # admob
   pod 'Google-Mobile-Ads-SDK','~> 11.1.0'
+end
+
+target 'FirebaseTarget' do
+  use_frameworks!
+  pod 'FirebaseAnalytics', '~> 11.4.0'
+  pod 'FirebaseCrashlytics', '~> 11.4.0'
 end
