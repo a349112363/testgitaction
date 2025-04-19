@@ -33,7 +33,7 @@ target 'testgithubaction' do
 #  pod 'FirebaseCrashlytics','~> 11.4.0'
 
   # 社交登录
-  pod 'GoogleSignIn'
+#  pod 'GoogleSignIn'
   pod 'FBSDKLoginKit','~> 17.0.3'
   pod 'FBSDKShareKit','~> 17.0.3'
 
