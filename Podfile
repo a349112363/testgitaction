@@ -1,7 +1,7 @@
 platform :ios, '12.0'
 
 target 'testgithubaction' do
-  use_frameworks! :linkage => :static
+  use_frameworks!
 
   # 网络与数据
   pod 'Moya'
@@ -30,7 +30,7 @@ target 'testgithubaction' do
 
   # Firebase 相关，强制动态库模式
 #  pod 'FirebaseAnalytics','~> 11.4.0'
-  pod 'FirebaseCrashlytics','~> 11.4.0'
+#  pod 'FirebaseCrashlytics','~> 11.4.0'
 
   # 社交登录
   pod 'GoogleSignIn'
