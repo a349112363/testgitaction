@@ -1,39 +1,37 @@
-# Uncomment the next line to define a global platform for your project
-
- platform :ios, '12.0'
+platform :ios, '12.0'
 
 target 'testgithubaction' do
-  # Comment the next line if you don't want to use dynamic frameworks
-#  use_frameworks!
-  use_modular_headers!  # 使用静态库模式
-# 网络与数据
-  pod 'Moya'
-  pod 'SwiftyJSON'
-  pod 'HandyJSON'
-  # UI 工具
-  pod 'SnapKit'
-  pod 'HBDNavigationBar', '~> 1.7.5'
-  pod 'Toast-Swift', '~> 5.0'  # https://github.com/scalessec/Toast-Swift
-  
-  # RxSwift 生态
-  pod 'RxSwift'
-  pod 'RxCocoa'
-  pod 'RxGesture'
-  pod 'RxSwiftExt'
-  pod 'RxDataSources'
-  pod 'NSObject+Rx', '~> 5.0'
-  
-  # 工具库
-  pod 'SwifterSwift', '~> 5.0'
-  pod 'MBProgressHUD'
-  pod 'GTMBase64'
-  pod 'Hue'
-  pod 'JSONModel', '~> 1.2.0'
+  use_frameworks!
 
-  # Firebase
+  # 网络与数据
+  pod 'Moya', :modular_headers => true
+  pod 'SwiftyJSON', :modular_headers => true
+  pod 'HandyJSON', :modular_headers => true
+
+  # UI 工具
+  pod 'SnapKit', :modular_headers => true
+  pod 'HBDNavigationBar', '~> 1.7.5', :modular_headers => true
+  pod 'Toast-Swift', '~> 5.0', :modular_headers => true
+
+  # RxSwift 生态
+  pod 'RxSwift', :modular_headers => true
+  pod 'RxCocoa', :modular_headers => true
+  pod 'RxGesture', :modular_headers => true
+  pod 'RxSwiftExt', :modular_headers => true
+  pod 'RxDataSources', :modular_headers => true
+  pod 'NSObject+Rx', '~> 5.0', :modular_headers => true
+
+  # 工具库
+  pod 'SwifterSwift', '~> 5.0', :modular_headers => true
+  pod 'MBProgressHUD', :modular_headers => true
+  pod 'GTMBase64', :modular_headers => true
+  pod 'Hue', :modular_headers => true
+  pod 'JSONModel', '~> 1.2.0', :modular_headers => true
+
+  # Firebase 相关，强制动态库模式
   pod 'FirebaseAnalytics','~> 11.4.0'
   pod 'FirebaseCrashlytics','~> 11.4.0'
-#
+
   # 社交登录
   pod 'GoogleSignIn'
   pod 'FBSDKLoginKit','~> 17.0.3'
@@ -51,10 +49,6 @@ target 'testgithubaction' do
   pod 'AppLovinMediationVerveAdapter','~> 3.0.1.0'
   pod 'AppLovinMediationVungleAdapter','~> 7.4.1.0'
 
-  #admob
+  # admob
   pod 'Google-Mobile-Ads-SDK','~> 11.1.0'
-
-
-
 end
-
