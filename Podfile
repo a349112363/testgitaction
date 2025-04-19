@@ -29,7 +29,7 @@ target 'testgithubaction' do
   pod 'JSONModel', '~> 1.2.0'
 
   # Firebase 相关，强制动态库模式
-#  pod 'FirebaseAnalytics','~> 11.4.0'
+  pod 'FirebaseAnalytics','~> 11.4.0'
 #  pod 'FirebaseCrashlytics','~> 11.4.0'
 
   # 社交登录
@@ -38,7 +38,7 @@ target 'testgithubaction' do
   pod 'FBSDKShareKit','~> 17.0.3'
 
   # 穿山甲
-  pod 'Ads-Global','~> 5.8.0.8'
+  pod 'Ads-Global','~> 5.8.0.8', :modular_headers => true
 
   # max
   pod 'AppLovinSDK','~> 12.4.1', :modular_headers => true
