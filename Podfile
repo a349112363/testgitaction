@@ -30,7 +30,7 @@ target 'testgithubaction' do
 
   # Firebase 相关，强制动态库模式
   pod 'FirebaseAnalytics','~> 11.4.0'
-#  pod 'FirebaseCrashlytics','~> 11.4.0'
+  pod 'FirebaseCrashlytics','~> 11.4.0'
 
   # 社交登录
   pod 'GoogleSignIn'
@@ -38,16 +38,16 @@ target 'testgithubaction' do
   pod 'FBSDKShareKit','~> 17.0.3'
 
   # 穿山甲
-  pod 'Ads-Global','~> 5.8.0.8', :modular_headers => true
+  pod 'Ads-Global','~> 5.8.0.8'
 
   # max
-  pod 'AppLovinSDK','~> 12.4.1', :modular_headers => true
-  pod 'AppLovinMediationFacebookAdapter','~> 6.15.0.0', :modular_headers => true
-  pod 'AppLovinMediationMintegralAdapter','~> 7.6.2.0', :modular_headers => true
-  pod 'AppLovinMediationByteDanceAdapter','~> 5.8.0.8', :modular_headers => true
-  pod 'AppLovinMediationUnityAdsAdapter','~> 4.10.0.0', :modular_headers => true
-  pod 'AppLovinMediationVerveAdapter','~> 3.0.1.0', :modular_headers => true
-  pod 'AppLovinMediationVungleAdapter','~> 7.4.1.0', :modular_headers => true
+  pod 'AppLovinSDK','~> 12.4.1'
+  pod 'AppLovinMediationFacebookAdapter','~> 6.15.0.0'
+  pod 'AppLovinMediationMintegralAdapter','~> 7.6.2.0'
+  pod 'AppLovinMediationByteDanceAdapter','~> 5.8.0.8'
+  pod 'AppLovinMediationUnityAdsAdapter','~> 4.10.0.0'
+#  pod 'AppLovinMediationVerveAdapter','~> 3.0.1.0'
+#  pod 'AppLovinMediationVungleAdapter','~> 7.4.1.0'
 
   # admob
   pod 'Google-Mobile-Ads-SDK','~> 11.1.0'

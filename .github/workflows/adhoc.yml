@@ -44,6 +44,9 @@ jobs:
     - name: Clean Xcode Derived Data
       run: |
         rm -rf ~/Library/Developer/Xcode/DerivedData/*
+        
+    - name: Set CocoaPods parallel code signing
+      run: echo "export COCOAPODS_PARALLEL_CODE_SIGN=true" >> $GITHUB_ENV
 
     - name: Install CocoaPods
       run: |
