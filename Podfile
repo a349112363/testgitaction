@@ -4,9 +4,9 @@
 
 target 'testgithubaction' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-#  inhibit_all_warnings!
-  # 网络与数据
+#  use_frameworks!
+  use_modular_headers!  # 使用静态库模式
+# 网络与数据
   pod 'Moya'
   pod 'SwiftyJSON'
   pod 'HandyJSON'
@@ -31,7 +31,7 @@ target 'testgithubaction' do
   pod 'JSONModel', '~> 1.2.0'
 
   # Firebase
-#  pod 'FirebaseAnalytics','~> 11.4.0'
+  pod 'FirebaseAnalytics','~> 11.4.0'
 #  pod 'FirebaseCrashlytics','~> 11.4.0'
 #
   # 社交登录
