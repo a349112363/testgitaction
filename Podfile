@@ -1,12 +1,24 @@
 platform :ios, '12.0'
 
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.name == 'HandyJSON'
+      target.build_configurations.each do |config|
+        config.build_settings['SWIFT_OPTIMIZATION_LEVEL'] = '-Onone'  # 禁用优化
+        config.build_settings['OPTIMIZATION_LEVEL'] = '0'             # 关闭 LLVM 优化
+      end
+    end
+  end
+end
+
 target 'testgithubaction' do
   use_frameworks!
 
   # 网络与数据
   pod 'Moya'
   pod 'SwiftyJSON'
-#  pod 'HandyJSON'
+  pod 'HandyJSON'
 
   # UI 工具
   pod 'SnapKit'
