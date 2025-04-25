@@ -26,7 +26,7 @@ target 'testgithubaction' do
   pod 'MBProgressHUD'
   pod 'GTMBase64'
   pod 'Hue'
-  pod 'JSONModel', '~> 1.2.0'
+#  pod 'JSONModel', '~> 1.2.0'
 
   # Firebase 相关，强制动态库模式
   pod 'FirebaseAnalytics','~> 11.4.0'
