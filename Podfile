@@ -6,7 +6,7 @@ target 'testgithubaction' do
   # 网络与数据
   pod 'Moya'
   pod 'SwiftyJSON'
-  pod 'HandyJSON'
+#  pod 'HandyJSON'
 
   # UI 工具
   pod 'SnapKit'
@@ -26,7 +26,7 @@ target 'testgithubaction' do
   pod 'MBProgressHUD'
   pod 'GTMBase64'
   pod 'Hue'
-#  pod 'JSONModel', '~> 1.2.0'
+  pod 'JSONModel'
 
   # Firebase 相关，强制动态库模式
   pod 'FirebaseAnalytics','~> 11.4.0'
