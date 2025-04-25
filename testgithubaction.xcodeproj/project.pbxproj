@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		959DE5E02B32C5E8FFAE086A /* libPods-testgithubaction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BD6CA78D39F0FDF6DDBF82 /* libPods-testgithubaction.a */; };
+		2C3C1CC1FDD1471D31B907CB /* Pods_testgithubaction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119558835E2E601EFE5AD6AF /* Pods_testgithubaction.framework */; };
 		9AC3FA2F2DB0906000CDD061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3FA2E2DB0906000CDD061 /* AppDelegate.swift */; };
 		9AC3FA312DB0906000CDD061 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3FA302DB0906000CDD061 /* SceneDelegate.swift */; };
 		9AC3FA332DB0906000CDD061 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3FA322DB0906000CDD061 /* ViewController.swift */; };
@@ -52,7 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		17BD6CA78D39F0FDF6DDBF82 /* libPods-testgithubaction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testgithubaction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		119558835E2E601EFE5AD6AF /* Pods_testgithubaction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testgithubaction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7087162DB2277200CC5C04 /* nanopb */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = nanopb; path = "/Users/macmini/Library/Developer/Xcode/DerivedData/testgithubaction-fditoaotfmwbtubhxbyrjukelbte/SourcePackages/checkouts/nanopb"; sourceTree = "<absolute>"; };
 		9AC3FA2B2DB0906000CDD061 /* testgithubaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testgithubaction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC3FA2E2DB0906000CDD061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				959DE5E02B32C5E8FFAE086A /* libPods-testgithubaction.a in Frameworks */,
+				2C3C1CC1FDD1471D31B907CB /* Pods_testgithubaction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				9A7087162DB2277200CC5C04 /* nanopb */,
-				17BD6CA78D39F0FDF6DDBF82 /* libPods-testgithubaction.a */,
+				119558835E2E601EFE5AD6AF /* Pods_testgithubaction.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,6 +184,8 @@
 				9AC3FA282DB0906000CDD061 /* Frameworks */,
 				9AC3FA292DB0906000CDD061 /* Resources */,
 				9AECE3732DB22FB3000F75A6 /* Embed Frameworks */,
+				BB5F276BB6E3908D3DE0BCC6 /* [CP] Embed Pods Frameworks */,
+				1DDCB85BFF3AB5A60EF63F83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -322,6 +324,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DDCB85BFF3AB5A60EF63F83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB5F276BB6E3908D3DE0BCC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testgithubaction/Pods-testgithubaction-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
